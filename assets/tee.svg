@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Essential crewneck tee">
+  <rect width="600" height="750" fill="#e8dfd4"/>
+  <g fill="none" stroke="#3d4a42" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M210 250 L170 290 L210 360 L210 530 L390 530 L390 360 L430 290 L390 250
+             C370 270 330 285 300 285 C270 285 230 270 210 250 Z"/>
+    <path d="M230 255 C250 275 275 285 300 285 C325 285 350 275 370 255"/>
+  </g>
+</svg>

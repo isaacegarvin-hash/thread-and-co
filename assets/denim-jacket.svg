@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Classic denim jacket">
+  <rect width="600" height="750" fill="#d4dce6"/>
+  <g fill="none" stroke="#24344a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M215 230 L170 275 L210 355 L210 545 L390 545 L390 355 L430 275 L385 230
+             C360 255 330 268 300 268 C270 268 240 255 215 230 Z"/>
+    <path d="M300 268 L300 545"/>
+    <path d="M215 355 L300 390 L390 355"/>
+    <rect x="230" y="400" width="50" height="42" rx="4"/>
+    <rect x="320" y="400" width="50" height="42" rx="4"/>
+    <circle cx="255" cy="421" r="3" fill="#24344a" stroke="none"/>
+    <circle cx="345" cy="421" r="3" fill="#24344a" stroke="none"/>
+  </g>
+</svg>

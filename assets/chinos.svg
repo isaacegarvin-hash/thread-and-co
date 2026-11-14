@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Tailored chinos">
+  <rect width="600" height="750" fill="#ebe3d2"/>
+  <g fill="none" stroke="#5a4630" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M230 200 L370 200 L385 230 L400 560 L330 560 L300 330 L270 560 L200 560 L215 230 Z"/>
+    <path d="M250 200 L250 230"/>
+    <path d="M350 200 L350 230"/>
+    <path d="M230 230 L370 230"/>
+  </g>
+</svg>

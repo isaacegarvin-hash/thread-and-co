@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Heavyweight hoodie">
+  <rect width="600" height="750" fill="#d9e0dc"/>
+  <g fill="none" stroke="#2a3330" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M300 200
+             C250 200 220 235 220 270
+             L175 310 L215 385 L215 545 L385 545 L385 385 L425 310 L380 270
+             C380 235 350 200 300 200 Z"/>
+    <path d="M245 275 C255 305 275 325 300 325 C325 325 345 305 355 275"/>
+    <path d="M270 325 L270 400 L300 420 L330 400 L330 325"/>
+    <path d="M215 545 L215 575 L385 575 L385 545"/>
+  </g>
+</svg>

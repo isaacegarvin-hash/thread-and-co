@@ -1,9 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Tailored chinos">
-  <rect width="600" height="750" fill="#ebe3d2"/>
-  <g fill="none" stroke="#5a4630" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M230 200 L370 200 L385 230 L400 560 L330 560 L300 330 L270 560 L200 560 L215 230 Z"/>
-    <path d="M250 200 L250 230"/>
-    <path d="M350 200 L350 230"/>
-    <path d="M230 230 L370 230"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img">
+  <title>Tailored Chinos</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece3"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="twill" x1="180" y1="160" x2="430" y2="640">
+      <stop offset="0" stop-color="#ddc9a4"/>
+      <stop offset="0.5" stop-color="#cbb892"/>
+      <stop offset="1" stop-color="#b39a74"/>
+    </linearGradient>
+    <clipPath id="pants">
+      <path d="
+        M232 176 H368
+        L384 214
+        C398 246 402 286 390 326
+        L362 618
+        L304 618
+        L300 358
+        L296 618
+        L238 618
+        L210 326
+        C198 286 202 246 216 214
+        Z"/>
+    </clipPath>
+  </defs>
+  <rect width="600" height="750" fill="url(#paper)"/>
+  <ellipse cx="300" cy="652" rx="108" ry="11" fill="#1c1917" opacity="0.07"/>
+  <g clip-path="url(#pants)">
+    <rect x="190" y="160" width="230" height="480" fill="url(#twill)"/>
+    <rect x="216" y="176" width="168" height="26" fill="#b7a27c"/>
+    <path d="M300 214 L284 600" fill="none" stroke="#a88c66" stroke-width="1.5" opacity="0.75"/>
+    <path d="M300 214 L316 600" fill="none" stroke="#ead7b4" stroke-width="1.5" opacity="0.5"/>
+    <path d="M300 210 V272" fill="none" stroke="#9c845f" stroke-width="1.7"/>
+    <path d="M238 268 C258 292 276 294 292 278" fill="none" stroke="#9c845f" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M362 268 C342 292 324 294 308 278" fill="none" stroke="#9c845f" stroke-width="1.6" stroke-linecap="round"/>
   </g>
+  <g fill="#9c845f">
+    <rect x="250" y="170" width="5" height="34" rx="1"/>
+    <rect x="274" y="168" width="5" height="32" rx="1"/>
+    <rect x="297" y="168" width="5" height="30" rx="1"/>
+    <rect x="320" y="168" width="5" height="32" rx="1"/>
+    <rect x="344" y="170" width="5" height="34" rx="1"/>
+  </g>
+  <circle cx="300" cy="222" r="3.2" fill="#8c3828"/>
 </svg>

@@ -1,8 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Essential crewneck tee">
-  <rect width="600" height="750" fill="#e8dfd4"/>
-  <g fill="none" stroke="#3d4a42" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M210 250 L170 290 L210 360 L210 530 L390 530 L390 360 L430 290 L390 250
-             C370 270 330 285 300 285 C270 285 230 270 210 250 Z"/>
-    <path d="M230 255 C250 275 275 285 300 285 C325 285 350 275 370 255"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img">
+  <title>Essential Tee</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece3"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="80" y1="240" x2="520" y2="620">
+      <stop offset="0" stop-color="#fbf8f3"/>
+      <stop offset="0.55" stop-color="#f3eee6"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <clipPath id="tee">
+      <path d="
+        M208 292
+        C232 274 258 296 272 310
+        C286 326 314 326 328 310
+        C342 296 368 274 392 292
+        L446 336
+        L420 374
+        L376 346
+        L388 548
+        C360 566 240 566 212 548
+        L224 346
+        L180 374
+        L154 336
+        Z"/>
+    </clipPath>
+  </defs>
+  <rect width="600" height="750" fill="url(#paper)"/>
+  <ellipse cx="300" cy="604" rx="122" ry="11" fill="#1c1917" opacity="0.07"/>
+  <g clip-path="url(#tee)">
+    <rect x="130" y="250" width="350" height="340" fill="url(#cloth)"/>
+    <path d="M272 310 C286 328 314 328 328 310" fill="none" stroke="#ddd3c6" stroke-width="15" stroke-linecap="round"/>
+    <path d="M300 330 V540" fill="none" stroke="#e6ddd2" stroke-width="1.6"/>
+    <path d="M246 340 L232 530" fill="none" stroke="#e4dcd2" stroke-width="1.4" opacity="0.9"/>
+    <path d="M354 340 L368 530" fill="none" stroke="#d9cfc2" stroke-width="1.4"/>
+    <path d="M224 532 H376" fill="none" stroke="#d9cfc2" stroke-width="2" opacity="0.7"/>
   </g>
+  <path d="M168 352 L204 334" fill="none" stroke="#e0d6ca" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M432 352 L396 334" fill="none" stroke="#d4c9bb" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

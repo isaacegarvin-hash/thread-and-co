@@ -1,11 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Merino beanie">
-  <rect width="600" height="750" fill="#e4d8d2"/>
-  <g fill="none" stroke="#4a2f2a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M200 430
-             C200 320 230 250 300 250
-             C370 250 400 320 400 430
-             L200 430 Z"/>
-    <path d="M190 430 L410 430 L410 470 C410 490 390 505 300 505 C210 505 190 490 190 470 Z"/>
-    <circle cx="300" cy="250" r="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img">
+  <title>Merino Beanie</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece3"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="200" y1="180" x2="420" y2="520">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1c1917" stop-opacity="0.18"/>
+    </linearGradient>
+    <pattern id="vrib" width="8" height="12" patternUnits="userSpaceOnUse">
+      <rect width="8" height="12" fill="#8c3828"/>
+      <rect width="2.6" height="12" fill="#762e22"/>
+    </pattern>
+    <pattern id="hrib" width="12" height="7" patternUnits="userSpaceOnUse">
+      <rect width="12" height="7" fill="#7a3123"/>
+      <rect width="12" height="2.6" fill="#94503f"/>
+    </pattern>
+    <clipPath id="crown">
+      <path d="M196 400
+               C196 292 236 196 300 188
+               C364 196 404 292 404 400
+               Z"/>
+    </clipPath>
+    <clipPath id="cuff">
+      <path d="M172 392 H428 V456 C428 504 374 524 300 524 C226 524 172 504 172 456 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="600" height="750" fill="url(#paper)"/>
+  <ellipse cx="300" cy="556" rx="124" ry="12" fill="#1c1917" opacity="0.07"/>
+  <g clip-path="url(#crown)">
+    <rect x="170" y="160" width="260" height="260" fill="url(#vrib)"/>
+    <rect x="170" y="160" width="260" height="260" fill="url(#sheen)"/>
   </g>
+  <g clip-path="url(#cuff)">
+    <rect x="150" y="380" width="300" height="160" fill="url(#hrib)"/>
+  </g>
+  <path d="M172 394 H428" stroke="#642818" stroke-width="2.5" opacity="0.4"/>
 </svg>

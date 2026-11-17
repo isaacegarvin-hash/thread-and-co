@@ -1,13 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Classic denim jacket">
-  <rect width="600" height="750" fill="#d4dce6"/>
-  <g fill="none" stroke="#24344a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M215 230 L170 275 L210 355 L210 545 L390 545 L390 355 L430 275 L385 230
-             C360 255 330 268 300 268 C270 268 240 255 215 230 Z"/>
-    <path d="M300 268 L300 545"/>
-    <path d="M215 355 L300 390 L390 355"/>
-    <rect x="230" y="400" width="50" height="42" rx="4"/>
-    <rect x="320" y="400" width="50" height="42" rx="4"/>
-    <circle cx="255" cy="421" r="3" fill="#24344a" stroke="none"/>
-    <circle cx="345" cy="421" r="3" fill="#24344a" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img">
+  <title>Denim Jacket</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece3"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="denim" x1="130" y1="220" x2="490" y2="640">
+      <stop offset="0" stop-color="#526580"/>
+      <stop offset="0.48" stop-color="#3d4f68"/>
+      <stop offset="1" stop-color="#2a3a4e"/>
+    </linearGradient>
+    <clipPath id="jacket">
+      <path d="
+        M214 312
+        C236 292 258 304 274 314
+        L300 292
+        L326 314
+        C342 304 364 292 386 312
+        L444 364
+        L458 470
+        L404 492
+        L360 378
+        L376 572
+        L224 572
+        L240 378
+        L196 492
+        L142 470
+        L156 364
+        Z"/>
+    </clipPath>
+  </defs>
+  <rect width="600" height="750" fill="url(#paper)"/>
+  <ellipse cx="300" cy="614" rx="138" ry="12" fill="#1c1917" opacity="0.08"/>
+  <g clip-path="url(#jacket)">
+    <rect x="120" y="250" width="380" height="350" fill="url(#denim)"/>
+    <path d="M214 348 Q300 378 386 348" fill="none" stroke="#d4c29a" stroke-width="1.5" opacity="0.9"/>
+    <path d="M228 360 Q300 386 372 360 V572 H228 Z" fill="#243246" opacity="0.22"/>
+    <path d="M300 300 V560" fill="none" stroke="#1d2a3b" stroke-width="7"/>
+    <path d="M293 314 V548" fill="none" stroke="#d4c29a" stroke-width="1.15"/>
+    <path d="M307 314 V548" fill="none" stroke="#d4c29a" stroke-width="1.15"/>
+    <path d="M148 438 L166 478 L206 494 L190 448 Z" fill="#31445a"/>
+    <path d="M452 438 L434 478 L394 494 L410 448 Z" fill="#243246"/>
+  </g>
+  <path d="M270 308 L248 346 L282 330 L300 308 L318 330 L352 346 L330 308 C316 286 284 286 270 308 Z" fill="#31445c"/>
+  <path d="M270 308 L248 346 L282 330 L300 308" fill="none" stroke="#d4c29a" stroke-width="1.2"/>
+  <path d="M330 308 L352 346 L318 330 L300 308" fill="none" stroke="#d4c29a" stroke-width="1.2"/>
+  <g>
+    <path d="M232 392 H286 V436 H232 Z" fill="#35485e"/>
+    <path d="M228 392 H290 V406 H228 Z" fill="#2a3b50"/>
+    <path d="M232 392 H286 M232 436 H286 M232 392 V436 M286 392 V436" fill="none" stroke="#d4c29a" stroke-width="1.15"/>
+    <circle cx="259" cy="422" r="3.4" fill="#c4a36c"/>
+    <path d="M314 392 H368 V436 H314 Z" fill="#2f4258"/>
+    <path d="M310 392 H372 V406 H310 Z" fill="#243448"/>
+    <path d="M314 392 H368 M314 436 H368 M314 392 V436 M368 392 V436" fill="none" stroke="#d4c29a" stroke-width="1.15"/>
+    <circle cx="341" cy="422" r="3.4" fill="#b89558"/>
+  </g>
+  <g fill="#c4a36c">
+    <circle cx="300" cy="330" r="4"/>
+    <circle cx="300" cy="372" r="4"/>
+    <circle cx="300" cy="416" r="4"/>
+    <circle cx="300" cy="460" r="4"/>
+    <circle cx="300" cy="504" r="4"/>
+    <circle cx="300" cy="546" r="4"/>
+  </g>
+  <g fill="#8d7040">
+    <circle cx="300" cy="330" r="1.4"/>
+    <circle cx="300" cy="372" r="1.4"/>
+    <circle cx="300" cy="416" r="1.4"/>
+    <circle cx="300" cy="460" r="1.4"/>
+    <circle cx="300" cy="504" r="1.4"/>
+    <circle cx="300" cy="546" r="1.4"/>
   </g>
 </svg>

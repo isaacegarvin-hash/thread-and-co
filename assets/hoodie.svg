@@ -1,12 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Heavyweight hoodie">
-  <rect width="600" height="750" fill="#d9e0dc"/>
-  <g fill="none" stroke="#2a3330" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M300 200
-             C250 200 220 235 220 270
-             L175 310 L215 385 L215 545 L385 545 L385 385 L425 310 L380 270
-             C380 235 350 200 300 200 Z"/>
-    <path d="M245 275 C255 305 275 325 300 325 C325 325 345 305 355 275"/>
-    <path d="M270 325 L270 400 L300 420 L330 400 L330 325"/>
-    <path d="M215 545 L215 575 L385 575 L385 545"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img">
+  <title>Heavyweight Hoodie</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece3"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="fleece" x1="140" y1="140" x2="480" y2="640">
+      <stop offset="0" stop-color="#3a3531"/>
+      <stop offset="0.45" stop-color="#2b2825"/>
+      <stop offset="1" stop-color="#1c1a18"/>
+    </linearGradient>
+    <pattern id="rib" width="7" height="8" patternUnits="userSpaceOnUse">
+      <rect width="7" height="8" fill="#34302c"/>
+      <rect width="2.3" height="8" fill="#241f1c"/>
+    </pattern>
+    <clipPath id="hoodie">
+      <path d="
+        M228 308
+        C196 262 206 168 256 142
+        C278 128 322 128 344 142
+        C394 168 404 262 372 308
+        L438 358
+        L454 458
+        L400 482
+        L352 372
+        L370 586
+        L230 586
+        L248 372
+        L200 482
+        L146 458
+        L162 358
+        Z"/>
+    </clipPath>
+  </defs>
+  <rect width="600" height="750" fill="url(#paper)"/>
+  <ellipse cx="300" cy="628" rx="140" ry="12" fill="#1c1917" opacity="0.08"/>
+  <g clip-path="url(#hoodie)">
+    <rect x="120" y="110" width="370" height="500" fill="url(#fleece)"/>
+    <path d="M300 300 V548" fill="none" stroke="#141210" stroke-width="1.5" opacity="0.45"/>
+    <path d="M232 548 H368 V586 H232 Z" fill="url(#rib)"/>
+    <path d="M152 424 L168 468 L214 486 L202 438 Z" fill="url(#rib)"/>
+    <path d="M448 424 L432 468 L386 486 L398 438 Z" fill="url(#rib)"/>
   </g>
+  <path d="M268 214
+           C268 176 280 158 300 158
+           C320 158 332 176 332 214
+           C332 250 320 270 300 270
+           C280 270 268 250 268 214 Z" fill="#161412"/>
+  <path d="M274 230 C286 258 314 258 326 230" fill="none" stroke="#3c3733" stroke-width="7" stroke-linecap="round"/>
+  <path d="M294 246 C296 286 292 318 286 340" fill="none" stroke="#8c3828" stroke-width="2" stroke-linecap="round"/>
+  <path d="M306 246 C304 286 308 318 314 340" fill="none" stroke="#8c3828" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="286" cy="344" r="3.1" fill="#c4a36c"/>
+  <circle cx="314" cy="344" r="3.1" fill="#c4a36c"/>
+  <path d="M250 392
+           C250 382 268 374 300 374
+           C332 374 350 382 350 392
+           V452
+           C350 468 330 476 300 476
+           C270 476 250 468 250 452 Z" fill="#221f1c"/>
+  <path d="M254 400 C276 390 324 390 346 400" fill="none" stroke="#141210" stroke-width="3" stroke-linecap="round"/>
 </svg>

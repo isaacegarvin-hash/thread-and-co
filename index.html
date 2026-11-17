@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Thread &amp; Co. — thoughtfully cut everyday clothing in natural fabrics.">
-  <title>Thread &amp; Co. — Everyday Clothing</title>
+  <meta name="description" content="Thread &amp; Co. — quiet everyday clothing in natural fabrics, made to last.">
+  <meta name="theme-color" content="#f3eee6">
+  <title>Thread &amp; Co. — Quiet clothing, made to last</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.replace("no-js", "js");</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="nav-inner">
-      <a class="brand" href="#top">Thread &amp; Co.</a>
+      <a class="brand" href="#top">Thread <em>&amp;</em> Co.</a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
         <span class="nav-toggle-bars" aria-hidden="true"></span>
@@ -36,171 +39,253 @@
       <div class="hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">New season staples</p>
-          <h1 id="hero-heading">Quiet clothing,<br>made to last.</h1>
+          <h1 id="hero-heading"><span class="hero-line">Quiet clothing,</span> <em>made to last.</em></h1>
           <p class="hero-sub">Thoughtfully cut everyday pieces in natural fabrics. Designed to be worn hard, mended often, and kept for years.</p>
-          <a class="btn btn-primary" href="#shop">Shop the collection</a>
+          <a class="btn btn-primary" href="#shop">
+            Shop the collection
+            <svg class="btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M2.5 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <figure class="hero-frame hero-frame-a"><img src="assets/denim-jacket.svg" alt=""></figure>
-          <figure class="hero-frame hero-frame-b"><img src="assets/tee.svg" alt=""></figure>
-          <figure class="hero-frame hero-frame-c"><img src="assets/sneakers.svg" alt=""></figure>
-        </div>
-      </div>
-    </section>
 
-    <section class="shop" id="shop" aria-labelledby="shop-heading">
-      <div class="section-intro">
-        <p class="eyebrow">The collection</p>
-        <h2 id="shop-heading">Six pieces, endlessly useful.</h2>
-        <p>A tight edit of wardrobe essentials. Sample items for this starter template — swap in your own photos, names, and prices.</p>
+        <figure class="hero-visual">
+          <div class="hero-frame">
+            <img src="assets/denim-jacket.svg" alt="" width="600" height="750">
+          </div>
+          <figcaption>
+            <a href="#denim-jacket">Denim Jacket</a>
+            <span>$148</span>
+          </figcaption>
+        </figure>
       </div>
 
-      <ul class="product-grid">
-        <li class="product-card">
-          <article>
-            <div class="product-media">
-              <img src="assets/tee.svg" alt="Ivory essential crewneck T-shirt, laid flat" width="600" height="750">
-            </div>
-            <div class="product-info">
-              <h3>Essential Tee</h3>
-              <p class="price">$38</p>
-              <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Essential Tee">Add to cart</button>
-            </div>
-          </article>
-        </li>
-        <li class="product-card">
-          <article>
-            <div class="product-media">
-              <img src="assets/hoodie.svg" alt="Forest green heavyweight pullover hoodie" width="600" height="750">
-            </div>
-            <div class="product-info">
-              <h3>Heavyweight Hoodie</h3>
-              <p class="price">$89</p>
-              <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Heavyweight Hoodie">Add to cart</button>
-            </div>
-          </article>
-        </li>
-        <li class="product-card">
-          <article>
-            <div class="product-media">
-              <img src="assets/denim-jacket.svg" alt="Classic indigo denim jacket with chest pockets" width="600" height="750">
-            </div>
-            <div class="product-info">
-              <h3>Denim Jacket</h3>
-              <p class="price">$148</p>
-              <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Denim Jacket">Add to cart</button>
-            </div>
-          </article>
-        </li>
-        <li class="product-card">
-          <article>
-            <div class="product-media">
-              <img src="assets/chinos.svg" alt="Sand-colored tailored chino trousers" width="600" height="750">
-            </div>
-            <div class="product-info">
-              <h3>Tailored Chinos</h3>
-              <p class="price">$96</p>
-              <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Tailored Chinos">Add to cart</button>
-            </div>
-          </article>
-        </li>
-        <li class="product-card">
-          <article>
-            <div class="product-media">
-              <img src="assets/sneakers.svg" alt="White court sneakers with a gum sole" width="600" height="750">
-            </div>
-            <div class="product-info">
-              <h3>Court Sneakers</h3>
-              <p class="price">$128</p>
-              <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Court Sneakers">Add to cart</button>
-            </div>
-          </article>
-        </li>
-        <li class="product-card">
-          <article>
-            <div class="product-media">
-              <img src="assets/beanie.svg" alt="Soft merino wool beanie in a rust tone" width="600" height="750">
-            </div>
-            <div class="product-info">
-              <h3>Merino Beanie</h3>
-              <p class="price">$42</p>
-              <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Merino Beanie">Add to cart</button>
-            </div>
-          </article>
-        </li>
+      <ul class="hero-notes" aria-label="Collection notes">
+        <li><span>01</span> Natural fabrics</li>
+        <li><span>02</span> Six essential pieces</li>
+        <li><span>03</span> Made to be mended</li>
       </ul>
     </section>
 
+    <section class="shop" id="shop" aria-labelledby="shop-heading">
+      <div class="section-inner">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">The collection</p>
+            <h2 id="shop-heading">Six pieces, endlessly useful.</h2>
+          </div>
+          <p class="section-lede">A tight edit of wardrobe essentials, cut from natural cloth and meant to be worn on repeat.</p>
+        </header>
+
+        <ul class="product-grid">
+          <li class="product-card" id="essential-tee">
+            <article>
+              <div class="product-media">
+                <span class="plate" aria-hidden="true">01</span>
+                <img src="assets/tee.svg" alt="Ivory essential crewneck T-shirt with set-in sleeves" width="600" height="750">
+              </div>
+              <div class="product-info">
+                <div class="product-heading">
+                  <h3>Essential Tee</h3>
+                  <p class="price">$38</p>
+                </div>
+                <p class="product-desc">Heavyweight cotton. Crew neck, set-in sleeves, a slightly relaxed body.</p>
+                <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Essential Tee">Add to cart<span class="sr-only">, Essential Tee</span></button>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card" id="heavyweight-hoodie">
+            <article>
+              <div class="product-media">
+                <span class="plate" aria-hidden="true">02</span>
+                <img src="assets/hoodie.svg" alt="Charcoal heavyweight pullover hoodie with a kangaroo pocket" width="600" height="750">
+              </div>
+              <div class="product-info">
+                <div class="product-heading">
+                  <h3>Heavyweight Hoodie</h3>
+                  <p class="price">$89</p>
+                </div>
+                <p class="product-desc">Brushed fleece with a quiet hood, a kangaroo pocket, and ribbed cuffs.</p>
+                <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Heavyweight Hoodie">Add to cart<span class="sr-only">, Heavyweight Hoodie</span></button>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card" id="denim-jacket">
+            <article>
+              <div class="product-media">
+                <span class="plate" aria-hidden="true">03</span>
+                <img src="assets/denim-jacket.svg" alt="Indigo denim jacket with a point collar and chest pockets" width="600" height="750">
+              </div>
+              <div class="product-info">
+                <div class="product-heading">
+                  <h3>Denim Jacket</h3>
+                  <p class="price">$148</p>
+                </div>
+                <p class="product-desc">Unlined indigo denim. Point collar, chest pockets, and a straight hem.</p>
+                <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Denim Jacket">Add to cart<span class="sr-only">, Denim Jacket</span></button>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card" id="tailored-chinos">
+            <article>
+              <div class="product-media">
+                <span class="plate" aria-hidden="true">04</span>
+                <img src="assets/chinos.svg" alt="Sand tailored chino trousers with a tapered leg" width="600" height="750">
+              </div>
+              <div class="product-info">
+                <div class="product-heading">
+                  <h3>Tailored Chinos</h3>
+                  <p class="price">$96</p>
+                </div>
+                <p class="product-desc">Cotton twill with a clean taper, easy through the thigh.</p>
+                <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Tailored Chinos">Add to cart<span class="sr-only">, Tailored Chinos</span></button>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card" id="court-sneakers">
+            <article>
+              <div class="product-media">
+                <span class="plate" aria-hidden="true">05</span>
+                <img src="assets/sneakers.svg" alt="Ivory court sneaker with a gum sole, shown in profile" width="600" height="750">
+              </div>
+              <div class="product-info">
+                <div class="product-heading">
+                  <h3>Court Sneakers</h3>
+                  <p class="price">$128</p>
+                </div>
+                <p class="product-desc">Leather upper and a gum cupsole, made to be worn every day.</p>
+                <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Court Sneakers">Add to cart<span class="sr-only">, Court Sneakers</span></button>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card" id="merino-beanie">
+            <article>
+              <div class="product-media">
+                <span class="plate" aria-hidden="true">06</span>
+                <img src="assets/beanie.svg" alt="Rust merino beanie with a ribbed crown and folded cuff" width="600" height="750">
+              </div>
+              <div class="product-info">
+                <div class="product-heading">
+                  <h3>Merino Beanie</h3>
+                  <p class="price">$42</p>
+                </div>
+                <p class="product-desc">Fine merino, folded brim, light enough for a coat pocket.</p>
+                <button class="btn btn-ghost" type="button" data-add-to-cart data-product="Merino Beanie">Add to cart<span class="sr-only">, Merino Beanie</span></button>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="about" id="about" aria-labelledby="about-heading">
-      <div class="about-grid">
-        <div class="about-copy">
-          <p class="eyebrow">Our story</p>
-          <h2 id="about-heading">Fewer pieces, better made.</h2>
-          <p>Thread &amp; Co. started as a small studio making clothes we actually wanted to wear: honest fabrics, unfussy cuts, and details that hold up after a hundred washes.</p>
-          <p>This page is a starter frontend — no checkout, no inventory, no backend. Replace this copy with your brand story, sourcing notes, or a lookbook intro.</p>
+      <div class="section-inner about-inner">
+        <div class="about-top">
+          <div class="about-copy">
+            <p class="eyebrow">Our story</p>
+            <h2 id="about-heading">Fewer pieces, better made.</h2>
+            <blockquote>
+              <p>Worn hard, mended often, kept for years.</p>
+            </blockquote>
+          </div>
+          <div class="about-story">
+            <p>Thread &amp; Co. started as a small studio making clothes we actually wanted to wear: honest fabrics, unfussy cuts, and details that hold up after a hundred washes.</p>
+            <p>There is no seasonal drop and no filler. Each piece is cut to sit easy, in cloth we would rather mend than replace.</p>
+          </div>
         </div>
-        <aside class="about-panel" aria-label="Brand values">
-          <ul>
-            <li>
-              <strong>Natural fibers</strong>
-              <span>Cotton, merino, and linen chosen for breath and drape.</span>
-            </li>
-            <li>
-              <strong>Considered fits</strong>
-              <span>Cut to sit easy, not oversized for the sake of it.</span>
-            </li>
-            <li>
-              <strong>Repair, don’t replace</strong>
-              <span>Built to be mended, not discarded after a season.</span>
-            </li>
-          </ul>
-        </aside>
+
+        <ul class="values">
+          <li>
+            <h3>Natural fibers</h3>
+            <p>Cotton, merino, and linen chosen for breath and drape.</p>
+          </li>
+          <li>
+            <h3>Considered fits</h3>
+            <p>Cut to sit easy, not oversized for the sake of it.</p>
+          </li>
+          <li>
+            <h3>Repair, don’t replace</h3>
+            <p>Built to be mended, not discarded after a season.</p>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section class="contact" id="contact" aria-labelledby="contact-heading">
-      <div class="contact-grid">
+      <div class="section-inner contact-grid">
         <div class="contact-copy">
           <p class="eyebrow">Get in touch</p>
           <h2 id="contact-heading">Questions, collaborations, or wholesale.</h2>
           <p>Send a note and we’ll get back to you. This form stays on the page — it doesn’t send email or store anything on a server.</p>
           <address>
-            Hello@threadandco.example<br>
-            214 Atelier Lane, Studio 4
+            <a href="mailto:hello@threadandco.example">hello@threadandco.example</a>
+            <span>214 Atelier Lane, Studio 4</span>
           </address>
         </div>
 
-        <form class="contact-form" id="contact-form" novalidate>
-          <div class="form-field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" autocomplete="name" required>
-          </div>
-          <div class="form-field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" autocomplete="email" required>
-          </div>
-          <div class="form-field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button class="btn btn-primary" type="submit">Send message</button>
-          <p class="form-error" id="form-error" hidden>Please fill in your name, a valid email, and a message.</p>
-        </form>
+        <div class="contact-panel">
+          <form class="contact-form" id="contact-form" novalidate aria-describedby="form-note">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error" placeholder="Your name">
+              <p class="field-error" id="name-error" hidden>Please enter your name.</p>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required aria-describedby="email-error" placeholder="you@studio.com">
+              <p class="field-error" id="email-error" hidden>Please enter a valid email address.</p>
+            </div>
+            <div class="form-field">
+              <label for="topic">Regarding</label>
+              <select id="topic" name="topic">
+                <option>A question</option>
+                <option>A collaboration</option>
+                <option>Wholesale</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required aria-describedby="message-error" placeholder="A note about a piece, a collaboration, or wholesale."></textarea>
+              <p class="field-error" id="message-error" hidden>Please enter a message.</p>
+            </div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p class="form-note" id="form-note">Nothing is sent or stored. The thank-you note appears here.</p>
+          </form>
 
-        <p class="form-thanks" id="form-thanks" hidden role="status" tabindex="-1">Thank you. We’ve received your message and will be in touch soon.</p>
+          <div class="form-thanks" id="form-thanks" hidden role="status" tabindex="-1">
+            <p class="eyebrow">Note received</p>
+            <p class="thanks-lead">Thank you. We’ve received your message and will be in touch soon.</p>
+            <button class="btn btn-ghost" type="button" id="form-again">Send another note</button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <p class="brand">Thread &amp; Co.</p>
-      <p>A frontend starter template. No payments, no accounts, no backend.</p>
-      <p class="copyright">&copy; <span id="year">2026</span> Thread &amp; Co. All rights reserved.</p>
+      <div class="footer-brand">
+        <a class="brand" href="#top">Thread <em>&amp;</em> Co.</a>
+        <p>Quiet clothing, made to last.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-meta">
+        <p>A frontend starter. No payments, no accounts, no backend.</p>
+        <p class="copyright">&copy; <span id="year">2026</span> Thread &amp; Co.</p>
+      </div>
     </div>
   </footer>
 
-  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="js/main.js"></script>
 </body>

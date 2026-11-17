@@ -1,17 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Court sneakers">
-  <rect width="600" height="750" fill="#e6e2dc"/>
-  <g fill="none" stroke="#2b2b2b" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M150 430
-             C170 390 210 370 260 370
-             L400 370
-             C450 370 480 390 490 430
-             L500 470
-             C505 490 495 505 470 508
-             L175 508
-             C155 508 145 495 150 475 Z"/>
-    <path d="M260 370 C270 410 300 430 360 430 L470 430"/>
-    <path d="M175 508 L175 490"/>
-    <path d="M230 508 L230 490"/>
-    <path d="M155 455 L250 455"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img">
+  <title>Court Sneakers</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece3"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="leather" x1="100" y1="250" x2="520" y2="470">
+      <stop offset="0" stop-color="#fbf8f4"/>
+      <stop offset="0.62" stop-color="#f3eee6"/>
+      <stop offset="1" stop-color="#e4dbd0"/>
+    </linearGradient>
+    <linearGradient id="gum" x1="0" y1="430" x2="0" y2="530">
+      <stop offset="0" stop-color="#e2c49a"/>
+      <stop offset="1" stop-color="#b48b58"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#paper)"/>
+  <ellipse cx="310" cy="548" rx="190" ry="13" fill="#1c1917" opacity="0.07"/>
+
+  <path d="M108 470
+           C112 512 156 528 214 532
+           L430 534
+           C500 534 542 512 540 478
+           L532 458
+           C470 474 190 470 118 456 Z" fill="url(#gum)"/>
+  <path d="M124 456 C200 470 470 474 524 452" fill="none" stroke="#f6ecdf" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+
+  <path d="M132 464
+           L124 372
+           C122 336 146 312 186 304
+           L228 298
+           C252 284 274 304 286 336
+           L304 362
+           C340 340 400 334 452 346
+           C496 356 524 388 530 428
+           L526 462 Z" fill="url(#leather)"/>
+
+  <path d="M132 464
+           L126 386
+           C130 352 152 332 180 324
+           L196 352
+           C168 364 156 400 160 464 Z" fill="#e8e0d6"/>
+
+  <path d="M186 312
+           C196 292 214 286 230 292
+           L226 318
+           C210 322 196 320 186 312 Z" fill="#d9cfc2"/>
+
+  <path d="M286 328
+           C324 286 400 278 454 306
+           L438 356
+           C392 336 338 338 300 362 Z" fill="#fbf8f4"/>
+
+  <path d="M292 348
+           C340 324 400 324 444 346
+           L434 372
+           C392 356 342 358 304 380 Z" fill="#efe8de"/>
+
+  <g fill="none" stroke="#2c2926" stroke-width="1.7" stroke-linecap="round">
+    <path d="M322 370 L346 348"/>
+    <path d="M322 350 L346 370"/>
+    <path d="M362 366 L386 346"/>
+    <path d="M362 348 L386 366"/>
+    <path d="M400 362 L422 346"/>
+    <path d="M400 346 L422 360"/>
   </g>
+  <g fill="#2c2926">
+    <circle cx="320" cy="350" r="2.3"/>
+    <circle cx="320" cy="370" r="2.3"/>
+    <circle cx="348" cy="348" r="2.3"/>
+    <circle cx="348" cy="370" r="2.3"/>
+    <circle cx="384" cy="346" r="2.3"/>
+    <circle cx="384" cy="366" r="2.3"/>
+    <circle cx="424" cy="346" r="2.3"/>
+    <circle cx="424" cy="362" r="2.3"/>
+  </g>
+
+  <path d="M452 330 C490 352 516 386 526 424" fill="none" stroke="#ddd4c8" stroke-width="2"/>
+  <path d="M132 462 H524" fill="none" stroke="#a88858" stroke-width="1.5" opacity="0.65"/>
 </svg>
